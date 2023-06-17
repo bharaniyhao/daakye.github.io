@@ -6,7 +6,7 @@ include_once 'inc/header.php';
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 // Define an array of allowed pages in the main folder
-$allowedPages = ['home', 'about', 'service', 'docu','contact'];
+$allowedPages = ['home', 'about', '', 'service', 'docu','contact'];
 
 // Check if the requested page is allowed
 if (in_array($page, $allowedPages)) {
